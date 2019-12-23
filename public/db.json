@@ -1,0 +1,829 @@
+[
+    {
+      "Lester": "5738",
+      "On_Hand": "3",
+      "price": "38.11"
+    },
+    {
+      "Lester": "5742",
+      "On_Hand": "13",
+      "price": "18.56"
+    },
+    {
+      "Lester": "5760",
+      "On_Hand": "18",
+      "price": "36.37"
+    },
+    {
+      "Lester": "5796",
+      "On_Hand": "2",
+      "price": "36.80"
+    },
+    {
+      "Lester": "5801",
+      "On_Hand": "1",
+      "price": "30.56"
+    },
+    {
+      "Lester": "6670",
+      "On_Hand": "18",
+      "price": "57.90"
+    },
+    {
+      "Lester": "6692",
+      "On_Hand": "7",
+      "price": "43.60"
+    },
+    {
+      "Lester": "6975",
+      "On_Hand": "9",
+      "price": "43.60"
+    },
+    {
+      "Lester": "7611",
+      "On_Hand": "5",
+      "price": "92.00"
+    },
+    {
+      "Lester": "8318",
+      "On_Hand": "78",
+      "price": "60.20"
+    },
+    {
+      "Lester": "8483",
+      "On_Hand": "50",
+      "price": "47.60",
+      "undefined": ""
+    },
+    {
+      "Lester": "10834",
+      "On_Hand": "2",
+      "price": "33.98"
+    },
+    {
+      "Lester": "10844",
+      "On_Hand": "6",
+      "price": "42.30"
+    },
+    {
+      "Lester": "10851",
+      "On_Hand": "11",
+      "price": "41.65"
+    },
+    {
+      "Lester": "10930",
+      "On_Hand": "10",
+      "price": "46.22"
+    },
+    {
+      "Lester": "11005",
+      "On_Hand": "21",
+      "price": "68.25",
+      "undefined": ""
+    },
+    {
+      "Lester": "11017",
+      "On_Hand": "66",
+      "price": "73.84"
+    },
+    {
+      "Lester": "11032",
+      "On_Hand": "1",
+      "price": "82.40",
+      "undefined": ""
+    },
+    {
+      "Lester": "11047",
+      "On_Hand": "22",
+      "price": "67.02"
+    },
+    {
+      "Lester": "11049",
+      "On_Hand": "1",
+      "price": "62.00",
+      "undefined": "CA1869IR"
+    },
+    {
+      "Lester": "11055",
+      "On_Hand": "15",
+      "price": "57.20"
+    },
+    {
+      "Lester": "11063",
+      "On_Hand": "1",
+      "price": "97.40"
+    },
+    {
+      "Lester": "11068",
+      "On_Hand": "24",
+      "price": "83.11",
+      "undefined": ""
+    },
+    {
+      "Lester": "11081",
+      "On_Hand": "48",
+      "price": "100.32",
+      "undefined": "NF pulley"
+    },
+    {
+      "Lester": "11083",
+      "On_Hand": "13",
+      "price": "60.12",
+      "undefined": "12V 150A"
+    },
+    {
+      "Lester": "11119",
+      "On_Hand": "4",
+      "price": "59.60"
+    },
+    {
+      "Lester": "11124",
+      "On_Hand": "33",
+      "price": "73.29",
+      "undefined": "CA1656IR"
+    },
+    {
+      "Lester": "11125",
+      "On_Hand": "26",
+      "price": "69.73",
+      "undefined": ""
+    },
+    {
+      "Lester": "11130",
+      "On_Hand": "34",
+      "price": "93.42"
+    },
+    {
+      "Lester": "11133",
+      "On_Hand": "4",
+      "price": "61.93",
+      "undefined": "6G"
+    },
+    {
+      "Lester": "11134",
+      "On_Hand": "13",
+      "price": "82.69",
+      "undefined": "CA1782IR"
+    },
+    {
+      "Lester": "11142",
+      "On_Hand": "48",
+      "price": "77.36"
+    },
+    {
+      "Lester": "11143",
+      "On_Hand": "1",
+      "price": "121.95"
+    },
+    {
+      "Lester": "11176",
+      "On_Hand": "41",
+      "price": "62.95",
+      "undefined": ""
+    },
+    {
+      "Lester": "11177",
+      "On_Hand": "9",
+      "price": "66.92"
+    },
+    {
+      "Lester": "11185",
+      "On_Hand": "1",
+      "price": "67.71"
+    },
+    {
+      "Lester": "11191",
+      "On_Hand": "36",
+      "price": "70.90"
+    },
+    {
+      "Lester": "11192",
+      "On_Hand": "4",
+      "price": "87.79"
+    },
+    {
+      "Lester": "11205",
+      "On_Hand": "11",
+      "price": "80.00",
+      "undefined": ""
+    },
+    {
+      "Lester": "11206",
+      "On_Hand": "5",
+      "price": "104.02",
+      "undefined": ""
+    },
+    {
+      "Lester": "11273",
+      "On_Hand": "36",
+      "price": "90.05"
+    },
+    {
+      "Lester": "11306",
+      "On_Hand": "37",
+      "price": "102.80"
+    },
+    {
+      "Lester": "11311",
+      "On_Hand": "12",
+      "price": "60.30",
+      "undefined": ""
+    },
+    {
+      "Lester": "11324",
+      "On_Hand": "13",
+      "price": "74.00"
+    },
+    {
+      "Lester": "11337",
+      "On_Hand": "13",
+      "price": "89.72"
+    },
+    {
+      "Lester": "11338",
+      "On_Hand": "14",
+      "price": "76.48"
+    },
+    {
+      "Lester": "11352",
+      "On_Hand": "3",
+      "price": "83.60"
+    },
+    {
+      "Lester": "11355",
+      "On_Hand": "19",
+      "price": "121.25",
+      "undefined": ""
+    },
+    {
+      "Lester": "11376",
+      "On_Hand": "10",
+      "price": "100.05"
+    },
+    {
+      "Lester": "11441",
+      "On_Hand": "18",
+      "price": "142.05"
+    },
+    {
+      "Lester": "11454",
+      "On_Hand": "11",
+      "price": "83.11"
+    },
+    {
+      "Lester": "11460",
+      "On_Hand": "14",
+      "price": "74.42"
+    },
+    {
+      "Lester": "11461",
+      "Comments": "no pulley",
+      "On_Hand": "35",
+      "price": "104.02"
+    },
+    {
+      "Lester": "11488",
+      "On_Hand": "17",
+      "price": "110.32"
+    },
+    {
+      "Lester": "11535",
+      "On_Hand": "20",
+      "price": "174.55"
+    },
+    {
+      "Lester": "11554",
+      "On_Hand": "89",
+      "price": "101.38"
+    },
+    {
+      "Lester": "11566",
+      "On_Hand": "4",
+      "price": "110.20"
+    },
+    {
+      "Lester": "11579",
+      "On_Hand": "56",
+      "price": "94.40"
+    },
+    {
+      "Lester": "11683",
+      "On_Hand": "4",
+      "price": "157.65"
+    },
+    {
+      "Lester": "11724",
+      "On_Hand": "21",
+      "price": "121.25"
+    },
+    {
+      "Lester": "12148",
+      "On_Hand": "45",
+      "price": "47.00",
+      "undefined": ""
+    },
+    {
+      "Lester": "12180",
+      "On_Hand": "6",
+      "price": "45.73"
+    },
+    {
+      "Lester": "12189",
+      "On_Hand": "16",
+      "price": "45.20"
+    },
+    {
+      "Lester": "12224",
+      "On_Hand": "31",
+      "price": "49.70"
+    },
+    {
+      "Lester": "12333",
+      "On_Hand": "12",
+      "price": "45.20"
+    },
+    {
+      "Lester": "12382",
+      "On_Hand": "46",
+      "price": "79.76"
+    },
+    {
+      "Lester": "12883",
+      "On_Hand": "10",
+      "price": "134.60"
+    },
+    {
+      "Lester": "13226",
+      "On_Hand": "52",
+      "price": "90.80"
+    },
+    {
+      "Lester": "13245",
+      "On_Hand": "20",
+      "price": "61.63",
+      "undefined": "UA960"
+    },
+    {
+      "Lester": "13479",
+      "On_Hand": "3",
+      "price": "58.40",
+      "undefined": "JA1407IR"
+    },
+    {
+      "Lester": "13815",
+      "On_Hand": "1",
+      "price": "125.25"
+    },
+    {
+      "Lester": "13839",
+      "On_Hand": "13",
+      "price": "61.63",
+      "undefined": "JA1788IR"
+    },
+    {
+      "Lester": "13852",
+      "On_Hand": "10",
+      "price": "59.62",
+      "undefined": "CA1544IR"
+    },
+    {
+      "Lester": "13921",
+      "On_Hand": "15",
+      "price": "60.80"
+    },
+    {
+      "Lester": "13930",
+      "On_Hand": "55",
+      "price": "71.91"
+    },
+    {
+      "Lester": "13980",
+      "On_Hand": "3",
+      "price": "84.15"
+    },
+    {
+      "Lester": "13985",
+      "On_Hand": "126",
+      "price": "59.94",
+      "undefined": ""
+    },
+    {
+      "Lester": "13997",
+      "On_Hand": "92",
+      "price": "71.17"
+    },
+    {
+      "Lester": "15422",
+      "On_Hand": "2",
+      "price": "80.96"
+    },
+    {
+      "Lester": "15423",
+      "On_Hand": "31",
+      "price": "80.96"
+    },
+    {
+      "Lester": "16450",
+      "On_Hand": "3",
+      "price": "45.16"
+    },
+    {
+      "Lester": "16791",
+      "On_Hand": "5",
+      "price": "41.00"
+    },
+    {
+      "Lester": "16963",
+      "On_Hand": "17",
+      "price": "37.40"
+    },
+    {
+      "Lester": "16980",
+      "On_Hand": "27",
+      "price": "39.70"
+    },
+    {
+      "Lester": "17030",
+      "On_Hand": "17",
+      "price": "38.00"
+    },
+    {
+      "Lester": "17084",
+      "On_Hand": "13",
+      "price": "61.76"
+    },
+    {
+      "Lester": "17171",
+      "On_Hand": "5",
+      "price": "61.76"
+    },
+    {
+      "Lester": "17210",
+      "On_Hand": "29",
+      "price": "41.00"
+    },
+    {
+      "Lester": "17362",
+      "On_Hand": "18",
+      "price": "57.20"
+    },
+    {
+      "Lester": "17399",
+      "On_Hand": "1",
+      "price": "68.00"
+    },
+    {
+      "Lester": "17529",
+      "On_Hand": "2",
+      "price": "47.60"
+    },
+    {
+      "Lester": "17560",
+      "On_Hand": "22",
+      "price": "39.80"
+    },
+    {
+      "Lester": "17586",
+      "On_Hand": "13",
+      "price": "71.80"
+    },
+    {
+      "Lester": "17658",
+      "On_Hand": "14",
+      "price": "51.66"
+    },
+    {
+      "Lester": "17672",
+      "On_Hand": "6",
+      "price": "64.40"
+    },
+    {
+      "Lester": "17713",
+      "On_Hand": "23",
+      "price": "40.40"
+    },
+    {
+      "Lester": "17717",
+      "On_Hand": "17",
+      "price": "38.00"
+    },
+    {
+      "Lester": "17848",
+      "On_Hand": "6",
+      "price": "38.00"
+    },
+    {
+      "Lester": "17869",
+      "On_Hand": "8",
+      "price": "39.70"
+    },
+    {
+      "Lester": "17872",
+      "On_Hand": "27",
+      "price": "46.20"
+    },
+    {
+      "Lester": "17907",
+      "On_Hand": "20",
+      "price": "41.00"
+    },
+    {
+      "Lester": "17914",
+      "On_Hand": "48",
+      "price": "39.70"
+    },
+    {
+      "Lester": "17932",
+      "On_Hand": "10",
+      "price": "38.05"
+    },
+    {
+      "Lester": "17946",
+      "On_Hand": "84",
+      "price": "60.50"
+    },
+    {
+      "Lester": "17950",
+      "On_Hand": "5",
+      "price": "86.15"
+    },
+    {
+      "Lester": "17960",
+      "On_Hand": "2",
+      "price": "50.00"
+    },
+    {
+      "Lester": "17994",
+      "On_Hand": "15",
+      "price": "43.60"
+    },
+    {
+      "Lester": "18009",
+      "On_Hand": "4",
+      "price": "41.00"
+    },
+    {
+      "Lester": "18048",
+      "On_Hand": "7",
+      "price": "41.00"
+    },
+    {
+      "Lester": "18142",
+      "On_Hand": "2",
+      "price": "47.60"
+    },
+    {
+      "Lester": "18171",
+      "On_Hand": "3",
+      "price": "64.05"
+    },
+    {
+      "Lester": "18305",
+      "On_Hand": "15",
+      "price": "33.77"
+    },
+    {
+      "Lester": "18342",
+      "On_Hand": "5",
+      "price": "79.65"
+    },
+    {
+      "Lester": "18350",
+      "On_Hand": "14",
+      "price": "41.00"
+    },
+    {
+      "Lester": "18365",
+      "On_Hand": "10",
+      "price": "47.80"
+    },
+    {
+      "Lester": "18402",
+      "On_Hand": "5",
+      "price": "74.80"
+    },
+    {
+      "Lester": "18419",
+      "On_Hand": "21",
+      "price": "51.40"
+    },
+    {
+      "Lester": "18454",
+      "On_Hand": "20",
+      "price": "90.40"
+    },
+    {
+      "Lester": "18491",
+      "On_Hand": "9",
+      "price": "60.50"
+    },
+    {
+      "Lester": "18535",
+      "On_Hand": "5",
+      "price": "86.50"
+    },
+    {
+      "Lester": "18645",
+      "On_Hand": "18",
+      "price": "20.33"
+    },
+    {
+      "Lester": "18940",
+      "On_Hand": "5",
+      "price": "60.80"
+    },
+    {
+      "Lester": "18973",
+      "On_Hand": "4",
+      "price": "39.35"
+    },
+    {
+      "Lester": "19045",
+      "On_Hand": "14",
+      "price": "60.50"
+    },
+    {
+      "Lester": "19098",
+      "On_Hand": "15",
+      "price": "40.65"
+    },
+    {
+      "Lester": "19136",
+      "On_Hand": "23",
+      "price": "36.80"
+    },
+    {
+      "Lester": "19137",
+      "On_Hand": "7",
+      "price": "39.35"
+    },
+    {
+      "Lester": "19140",
+      "On_Hand": "6",
+      "price": "59.60"
+    },
+    {
+      "Lester": "19141",
+      "On_Hand": "10",
+      "price": "36.80"
+    },
+    {
+      "Lester": "19163",
+      "On_Hand": "16",
+      "price": "39.70"
+    },
+    {
+      "Lester": "19178",
+      "On_Hand": "6",
+      "price": "54.97"
+    },
+    {
+      "Lester": "19203",
+      "On_Hand": "10",
+      "price": "45.20"
+    },
+    {
+      "Lester": "19217",
+      "On_Hand": "17",
+      "price": "54.97"
+    },
+    {
+      "Lester": "19225",
+      "On_Hand": "23",
+      "price": "41.00"
+    },
+    {
+      "Lester": "19226",
+      "On_Hand": "10",
+      "price": "41.75"
+    },
+    {
+      "Lester": "19227",
+      "On_Hand": "30",
+      "price": "38.00"
+    },
+    {
+      "Lester": "19247",
+      "On_Hand": "20",
+      "price": "48.80"
+    },
+    {
+      "Lester": "19451",
+      "On_Hand": "52",
+      "price": "45.77"
+    },
+    {
+      "Lester": "19616",
+      "On_Hand": "7",
+      "price": "45.20"
+    },
+    {
+      "Lester": "20864",
+      "On_Hand": "4",
+      "price": "143.60"
+    },
+    {
+      "Lester": "24142",
+      "On_Hand": "10",
+      "price": "116.60"
+    },
+    {
+      "Lester": "30155",
+      "On_Hand": "9",
+      "price": "38.00"
+    },
+    {
+      "Lester": "32367",
+      "On_Hand": "14",
+      "price": "56.00"
+    },
+    {
+      "Lester": "32796",
+      "On_Hand": "21",
+      "price": "54.20"
+    },
+    {
+      "Lester": "41000",
+      "On_Hand": "13",
+      "price": "134.00"
+    },
+    {
+      "Lester": "11212R",
+      "Comments": "OE REMAN",
+      "On_Hand": "1",
+      "price": "86.00"
+    },
+    {
+      "Lester": "11703OE",
+      "Comments": "OEM",
+      "On_Hand": "2",
+      "price": "221.78"
+    },
+    {
+      "Lester": "11813OE",
+      "Comments": "OEM",
+      "On_Hand": "8",
+      "price": "235.10"
+    },
+    {
+      "Lester": "13376R",
+      "Comments": "OE REMAN",
+      "On_Hand": "1",
+      "price": "74.00"
+    },
+    {
+      "Lester": "13709R",
+      "Comments": "OE REMAN",
+      "On_Hand": "1",
+      "price": "74.00"
+    },
+    {
+      "Lester": "16003OE",
+      "On_Hand": "5",
+      "price": "104.49"
+    },
+    {
+      "Lester": "18492C",
+      "Comments": "Chrome ",
+      "On_Hand": "22",
+      "price": "59.20"
+    },
+    {
+      "Lester": "18492N",
+      "On_Hand": "3",
+      "price": "52.70"
+    },
+    {
+      "Lester": "19053OE",
+      "Comments": "OEM",
+      "On_Hand": "1",
+      "price": "168.92"
+    },
+    {
+      "Lester": "428000-7926",
+      "Comments": "OEM",
+      "On_Hand": "2",
+      "price": "112.16"
+    },
+    {
+      "Lester": "6480M",
+      "On_Hand": "19",
+      "price": "44.00"
+    },
+    {
+      "Lester": "6978OE",
+      "Comments": "OEM",
+      "On_Hand": "3",
+      "price": "53.60"
+    },
+    {
+      "Lester": "7186-3",
+      "On_Hand": "39",
+      "price": "41.60"
+    },
+    {
+      "Lester": "FG23S033",
+      "On_Hand": "4",
+      "price": "261.74"
+    }
+  ]
