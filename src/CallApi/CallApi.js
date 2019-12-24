@@ -6,7 +6,8 @@ class CallApi extends Component {
     constructor(props) {
         super(props);
         this.state ={
-            product:[]
+            product:[],
+            search :""
         }
 
     }
@@ -20,20 +21,34 @@ class CallApi extends Component {
             })
 
     }
+     clickHandler (e){
+        if(e.target.value !==""){
+            this.setState({search : e.target.value})
+        }
+
+     }
 
 
 
 render() {
         return (
 
-            <div className="card-deck">
-                {this.state.product.map(product => {
-                    return <Post
-                        {...product}
+            <div>
+                <form className="form-inline my-2 my-lg-0">
+                    <input className="form-control mr-sm-2" type="search" placeholder="Search" onChange={this.clickHandler.bind(this)}/>
+                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <div className="card-deck">
+                    {this.state.product
+                        .filter(prod => prod.Lester.includes(this.state.search) )
+                        .map(product => {
+                            return <Post
+                                {...product}
 
-                    />
-                })}
+                            />
+                        })}
 
+                </div>
             </div>
         );
     }

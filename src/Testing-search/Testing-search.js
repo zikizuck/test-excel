@@ -5,7 +5,7 @@ class TestingSearch extends Component {
     constructor(props) {
         super(props);
         this.state={
-            list :[ "go to the market" ]
+            list :[ "go to the market", "jksrvhfkr","hkrfvkrwe" ]
         }
         this.addItem = this.addItem.bind(this);
         this.removeItem = this.removeItem.bind(this);
