@@ -40,7 +40,7 @@ render() {
                 </form>
                 <div className="card-deck">
                     {this.state.product
-                        .filter(prod => prod.Lester.includes(this.state.search) )
+                        .filter(prod => prod.num.includes(this.state.search) )
                         .map(product => {
                             return <Post
                                 {...product}
@@ -55,3 +55,4 @@ render() {
 }
 
 export default CallApi;
+
