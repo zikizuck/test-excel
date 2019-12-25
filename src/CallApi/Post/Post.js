@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './Post.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import { faShekelSign } from '@fortawesome/free-solid-svg-icons';
+import { faShekelSign ,faSearchLocation} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -18,8 +18,8 @@ class Post extends Component {
                             <p className="card-text">{this.props.description}</p>
                             <p className="card-text">In Stock :{this.props.QTY}</p>
                             <p className="card-text">{this.props.R} {this.props.N}</p>
-                            <p className="card-text">Price : <FontAwesomeIcon icon={faShekelSign} />{this.props.price}</p>
-                            <p className="card-text">Location :{this.props.FirstFloor} / {this.props.secFloor}</p>
+                            <p className="card-text">Price : <FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price}</p>
+                            <p className="card-text"><FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>{this.props.FirstFloor} / {this.props.secFloor}</p>
                             {/*<a href="#" className="btn btn-primary">Go somewhere</a>*/}
                         </div>
                     </div>
