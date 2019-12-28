@@ -15,11 +15,11 @@ class Post extends Component {
                         <div className="card-body">
                             <h5 className="card-title">Part # :{this.props.num}</h5>
                             <p className="card-text">{this.props.OEM}</p>
-                            <p className="card-text">{this.props.make}</p>
+                            <p className="card-text">{this.props.make}: דגם </p>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
-                            <p className="card-text">In Stock :{this.props.QTY}</p>
+                            <p className="card-text">{this.props.QTY}: כמות במלאי</p>
                             <p className="card-text">{this.props.R} {this.props.N}</p>
-                            <p className="card-text">Price : <FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price}</p>
+                            <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
                             <p className="card-text"><FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>{this.props.FirstFloor} / {this.props.secFloor}</p>
                             {/*<a href="#" className="btn btn-primary">Go somewhere</a>*/}
                         </div>
