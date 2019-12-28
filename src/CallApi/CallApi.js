@@ -7,7 +7,8 @@ class CallApi extends Component {
         super(props);
         this.state ={
             product:[],
-            search :""
+            search :"",
+            search2 :""
         }
 
     }
@@ -27,6 +28,12 @@ class CallApi extends Component {
         }
 
      }
+    search2Handler (e){
+        if(e.target.value !==""){
+            this.setState({search2 : e.target.value})
+        }
+
+    }
 
 
 
@@ -36,11 +43,13 @@ render() {
             <div>
                 <form className="form-inline my-2 my-lg-0">
                     <input className="form-control mr-sm-2" type="search" placeholder="Search" onChange={this.clickHandler.bind(this)}/>
+                    <input className="form-control mr-sm-2" type="search" placeholder="By description" onChange={this.search2Handler.bind(this)}/>
                     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
                 <div className="card-deck">
                     {this.state.product
                         .filter(prod => prod.num.includes(this.state.search) )
+                        .filter(prod => prod.description.includes(this.state.search2) )
                         .map(product => {
                             return <Post
                                 {...product}
