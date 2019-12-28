@@ -13,7 +13,7 @@ class CallApi extends Component {
     }
 
     componentDidMount () {
-        fetch( 'https://sheet.best/api/sheets/53f61969-59d6-4aea-80b1-c55076b404f2\n' )
+        fetch( 'https://sheet.best/api/sheets/53f61969-59d6-4aea-80b1-c55076b404f2' )
             .then(res => res.json())
             .then(product => {
                 this.setState({product});

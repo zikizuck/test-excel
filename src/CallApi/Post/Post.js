@@ -14,6 +14,7 @@ class Post extends Component {
                         {/*<img src={this.props.thumbnailUrl} className="card-img-top" alt="..."/>*/}
                         <div className="card-body">
                             <h5 className="card-title">Part # :{this.props.num}</h5>
+                            <p className="card-text">{this.props.OEM}</p>
                             <p className="card-text">{this.props.make}</p>
                             <p className="card-text">{this.props.description}</p>
                             <p className="card-text">In Stock :{this.props.QTY}</p>
