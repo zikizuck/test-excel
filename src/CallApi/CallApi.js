@@ -24,7 +24,7 @@ class CallApi extends Component {
     }
      clickHandler (e){
         if(e.target.value !==""){
-            this.setState({search : e.target.value})
+            this.setState({search : e.target.value.toUpperCase()})
         }
 
      }
