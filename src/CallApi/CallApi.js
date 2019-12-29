@@ -41,22 +41,25 @@ render() {
         return (
 
             <div>
-                <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control mr-sm-2" type="search" placeholder="לפי מקט" onChange={this.clickHandler.bind(this)}/>
-                    <input className="form-control mr-sm-2" type="search" placeholder="לפי תאור מוצר" onChange={this.search2Handler.bind(this)}/>
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">איפוס</button>
-                </form>
-                <div className="card-deck">
-                    {this.state.product
-                        .filter(prod => prod.num.includes(this.state.search) )
-                        .filter(prod => prod.description.includes(this.state.search2) )
-                        .map(product => {
-                            return <Post
-                                {...product}
 
-                            />
-                        })}
+                <div className="container">
+                    <form  className="form-inline my-2 my-lg-0">
+                        <input className="form-control mr-sm-2" type="search" placeholder="לפי מקט" onChange={this.clickHandler.bind(this)}/>
+                        <input className="form-control mr-sm-2" type="search" placeholder="לפי תאור מוצר" onChange={this.search2Handler.bind(this)}/>
+                        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">איפוס</button>
+                    </form>
+                    <div className="card-deck">
+                        {this.state.product
+                            .filter(prod => prod.num.includes(this.state.search) )
+                            .filter(prod => prod.description.includes(this.state.search2) )
+                            .map(product => {
+                                return <Post
+                                    {...product}
 
+                                />
+                            })}
+
+                    </div>
                 </div>
             </div>
         );
