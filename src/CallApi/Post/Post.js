@@ -16,6 +16,7 @@ class Post extends Component {
                             <h5 className="card-title">{this.props.num}</h5>
                             <p className="card-text">{this.props.OEM}</p>
                             <p className="card-text">{this.props.make}: דגם </p>
+                            <p className="card-text">Engine Code :{this.props.engine} </p>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
                             <p className="card-text">{this.props.QTY}: כמות במלאי</p>
                             <p className="card-text">Stock OK :{this.props.stock5} </p>
