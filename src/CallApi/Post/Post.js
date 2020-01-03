@@ -18,6 +18,7 @@ class Post extends Component {
                             <p className="card-text">{this.props.make}: דגם </p>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
                             <p className="card-text">{this.props.QTY}: כמות במלאי</p>
+                            <p className="card-text">Stock OK :{this.props.stock5} </p>
                             <p className="card-text">{this.props.Amp}Amp </p>
                             <p className="card-text">{this.props.R} {this.props.N}</p>
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
