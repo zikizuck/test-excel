@@ -18,7 +18,7 @@ class CallApi extends Component {
             .then(res => res.json())
             .then(product => {
                 this.setState({product});
-                console.log(product)
+                console.log(product);
             })
 
     }
@@ -51,7 +51,7 @@ render() {
                     <div className="card-deck">
                         {this.state.product
                             .filter(prod => prod.num.includes(this.state.search) )
-                            .filter(prod => prod.description.includes(this.state.search2) )
+                            // .filter(prod => prod.description.includes(this.state.search2) )
                             .map(product => {
                                 return <Post
                                     {...product}

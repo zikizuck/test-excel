@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Post extends Component {
     render() {
+
+
         return (
                 <div >
                     <div className="card" >
