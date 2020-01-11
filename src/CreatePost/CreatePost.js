@@ -37,7 +37,8 @@ class CreatePost extends Component {
 		fetch('./db.json', {
 			method: 'POST',
 			body: formData
-		}).then(res => res.json())
+		})
+			.then(res => res.json())
 			.then(post => console.log(post))
 			.catch(err => console.log(err));
 	}
