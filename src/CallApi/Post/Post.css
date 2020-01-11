@@ -4,3 +4,11 @@
     width: 20rem;
 }
 
+.qty {
+    background:lightgreen;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  3px 4px 9px 2px #6c757d;
+}
+.card-img-top{
+    width: 50%;
+}
