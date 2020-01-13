@@ -27,7 +27,9 @@ class Post extends Component {
                             {/*<p className="card-text">{this.props.Amp}Amp </p>*/}
                             <p className="card-text">{this.props.R} {this.props.N}</p>
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
-                            <p className="card-text"><FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>{this.props.FirstFloor} / {this.props.secFloor}</p>
+                            <p className="card-text" dir="rtl">
+                                <FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>
+                                {this.props.FirstFloor} כמות- {this.props.stock1} <br/> {this.props.secFloor}   כמות-{this.props.stock2}</p>
                             {/*<a href="#" className="btn btn-primary">Go somewhere</a>*/}
                         </div>
                     </div>
