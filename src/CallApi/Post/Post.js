@@ -13,9 +13,12 @@ class Post extends Component {
 
         return (
                 <div >
-                    <div className="card" >
+                    <div className="card " >
                         <div>{this.props.id}</div>
-                        <img src={this.props.thumbnailUrl} className="pic" alt="..."/>
+                        <span>
+                            <img src={this.props.thumbnailUrl}  className="pic" alt="..."/>
+                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..."/>
+                        </span>
                         <div className="card-body">
                             <h5 className="card-title">{this.props.num}</h5>
                             <p className="card-text">{this.props.OEM}</p>
