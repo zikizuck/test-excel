@@ -15,10 +15,15 @@ class Post extends Component {
                 <div >
                     <div className="card " >
                         <div>{this.props.id}</div>
+<<<<<<< HEAD
                         <span>
                             <img src={this.props.thumbnailUrl}  className="pic" alt="..."/>
                             <img src={this.props.thumbnailUrl2}  className="pic" alt="..."/>
                         </span>
+=======
+                        <img src={this.props.thumbnailUrl} className="pic" alt="..."/>
+                        <img src={this.props.thumbnailUr2} className="pic" alt="..."/>
+>>>>>>> 38b5970cebd0495f43eed66512c5fd5a94a6297a
                         <div className="card-body">
                             <h5 className="card-title">{this.props.num}</h5>
                             <p className="card-text">{this.props.OEM}</p>
