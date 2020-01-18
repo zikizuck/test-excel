@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {Suspense}from 'react';
 import './App.css';
 import CallApi from "./CallApi/CallApi";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,7 +12,10 @@ function App() {
 
 
         <Header/>
-        <CallApi/>
+        <Suspense fallback={<h1>Loadding ...</h1>}>
+
+            <CallApi/>
+        </Suspense>
     </div>
   );
 }
