@@ -8,7 +8,7 @@ import './Post.css';
 class Post extends Component {
     render() {
         const cls = (this.props.QTY > 0) ? 'qty' : '';
-        const cls2 = (this.props.stock5 > 0) ? 'qty' : '';
+        const cls2 = (this.props.stock5 > 0) ? 'qty2' : '';
 
 
         return (
@@ -16,8 +16,8 @@ class Post extends Component {
                     <div className="card " >
                         <div>{this.props.id}</div>
                         <span>
-                            <img src={this.props.thumbnailUrl}  className="pic" alt="..."/>
-                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..."/>
+                            <img src={this.props.thumbnailUrl}  className="pic" alt="..." onClick={()=> window.open(this.props.thumbnailUrl, "_blank" ,'height=600,width=400')}/>
+                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..." onClick={()=> window.open(this.props.thumbnailUrl2, "_blank" ,'height=600,width=400')}/>
                         </span>
                         <div className="card-body">
                             <h5 className="card-title">{this.props.num}</h5>
@@ -26,7 +26,7 @@ class Post extends Component {
                             <p className="card-text">Engine Code :{this.props.engine} </p>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
                             <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
-                            <p className={cls2} >{this.props.stock5}  : במלאי מחסן 5 </p>
+                            <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
                             {/*<p className="card-text">{this.props.Amp}Amp </p>*/}
                             <p className="card-text">{this.props.R} {this.props.N}</p>
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>

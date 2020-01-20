@@ -1,8 +1,10 @@
-import React , {Suspense}from 'react';
+import React, {Suspense} from 'react';
 import './App.css';
 import CallApi from "./CallApi/CallApi";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./CallApi/Header/Header";
+
+
 
 
 function App() {
