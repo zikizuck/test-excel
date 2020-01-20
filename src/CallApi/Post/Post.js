@@ -16,16 +16,20 @@ class Post extends Component {
                     <div className="card " >
                         <div>{this.props.id}</div>
                         <span>
-                            <img src={this.props.thumbnailUrl}  className="pic" alt="..." onClick={()=> window.open(this.props.thumbnailUrl, "_blank" ,'height=600,width=400')}/>
+                            <img src={this.props.thumbnailUrl}  className="pic" alt="..."
+                                 onClick={()=> window.open(this.props.thumbnailUrl,
+                                     "_blank" ,
+                                     'height=600,width=400')}/>
                             <img src={this.props.thumbnailUrl2}  className="pic" alt="..." onClick={()=> window.open(this.props.thumbnailUrl2, "_blank" ,'height=600,width=400')}/>
                         </span>
                         <div className="card-body">
                             <h5 className="card-title">{this.props.num}</h5>
                             <p className="card-text">{this.props.OEM}</p>
                             <p className="card-text">{this.props.make}: דגם </p>
-                            <p className="card-text">Engine Code :{this.props.engine} </p>
+                            <p className="card-text">Engine Code :{this.props.engine} </p><hr/>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
-                            <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
+                            <p className="card-text" dir="rtl">{this.props.desOK}</p>
+                            <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p><hr/>
                             <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
                             {/*<p className="card-text">{this.props.Amp}Amp </p>*/}
                             <p className="card-text">{this.props.R} {this.props.N}</p>

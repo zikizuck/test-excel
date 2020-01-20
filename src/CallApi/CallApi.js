@@ -62,7 +62,9 @@ render() {
                     </form>
                     <div className="card-deck">
                         {this.state.product
-                            .filter(prod => (prod.num.includes(this.state.search) || prod.description.includes(this.state.search)))
+                            .filter(prod => (prod.num.includes(this.state.search)
+                                || prod.description.includes(this.state.search)
+                                || prod.desOK.includes(this.state.search)))
                             .map(product => {
                                 return <Post
                                     {...product}
