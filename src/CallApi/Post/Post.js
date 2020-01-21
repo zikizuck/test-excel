@@ -24,14 +24,14 @@ class Post extends Component {
                         </span>
                         <div className="card-body">
                             <h5 className="card-title">{this.props.num}</h5>
-                            <p className="card-text">{this.props.OEM}</p>
-                            <p className="card-text">{this.props.make}: דגם </p>
+                            <span className="card-text">{this.props.OEM}</span>
+                            <span className="card-text">{this.props.make}: דגם </span>
                             <p className="card-text">Engine Code :{this.props.engine} </p><hr/>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
                             <p className="card-text" dir="rtl">{this.props.desOK}</p><hr/>
                             <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
                             <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
-                            {/*<p className="card-text">{this.props.Amp}Amp </p>*/}
+                            <p className={cls2} dir="rtl">{this.props.locationOK} : מיקום </p>
                             <p className="card-text">{this.props.R} {this.props.N}</p>
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
                             <p className="card-text" dir="rtl">
