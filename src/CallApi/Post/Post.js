@@ -28,8 +28,8 @@ class Post extends Component {
                             <p className="card-text">{this.props.make}: דגם </p>
                             <p className="card-text">Engine Code :{this.props.engine} </p><hr/>
                             <p className="card-text" dir="rtl">{this.props.description}</p>
-                            <p className="card-text" dir="rtl">{this.props.desOK}</p>
-                            <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p><hr/>
+                            <p className="card-text" dir="rtl">{this.props.desOK}</p><hr/>
+                            <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
                             <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
                             {/*<p className="card-text">{this.props.Amp}Amp </p>*/}
                             <p className="card-text">{this.props.R} {this.props.N}</p>
