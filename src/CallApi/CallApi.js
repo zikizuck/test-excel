@@ -34,10 +34,7 @@ class CallApi extends Component {
         }
 
     }
-    imageHandler (e){
-        window.target ()
 
-    }
 
 
 
@@ -63,8 +60,8 @@ render() {
                     <div className="card-deck">
                         {this.state.product
                             .filter(prod => (prod.num.includes(this.state.search)
-                                || prod.description.includes(this.state.search)
-                                ))
+                                || prod.description.includes(this.state.search)))
+                            .filter(prod => ((prod.QTY || prod.stock5) >  0))
                             .map(product => {
                                 return <Post
                                     {...product}
