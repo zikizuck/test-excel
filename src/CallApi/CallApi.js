@@ -34,6 +34,9 @@ class CallApi extends Component {
         }
 
     }
+    resetButton (){
+        this.setState({search:''})
+    }
 
 
 
@@ -54,14 +57,15 @@ render() {
                         {/*       onChange={this.search2Handler.bind(this)}*/}
                         {/*       onKeyPress={(e)=>{e.key === 'Enter'&& e.preventDefault()}}*/}
                         {/*/>*/}
+                        {/*<button className="btn btn-outline-success my-2 my-sm-0" onClick={this.resetButton.bind(this)}>clean content</button>*/}
 
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">איפוס</button>
                     </form>
                     <div className="card-deck">
                         {this.state.product
+                            // .filter(prod => ((prod.QTY || prod.stock5) >  0))
                             .filter(prod => (prod.num.includes(this.state.search)
                                 || prod.description.includes(this.state.search)))
-                            .filter(prod => ((prod.QTY || prod.stock5) >  0))
                             .map(product => {
                                 return <Post
                                     {...product}
