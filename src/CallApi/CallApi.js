@@ -65,7 +65,7 @@ render() {
                         {this.state.product
                             // .filter(prod => ((prod.QTY || prod.stock5) >  0))
                             .filter(prod => (prod.num.includes(this.state.search)
-                                || prod.description.includes(this.state.search)))
+                                || prod.description.includes(this.state.search) || prod.OEM.includes(this.state.search)))
                             .map(product => {
                                 return <Post
                                     {...product}

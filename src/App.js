@@ -16,6 +16,7 @@ function App() {
         <Header/>
         <Suspense fallback={<h1>Loadding ...</h1>}>
 
+
             <CallApi/>
         </Suspense>
     </div>
