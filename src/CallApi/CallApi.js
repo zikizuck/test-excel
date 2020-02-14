@@ -26,8 +26,7 @@ class CallApi extends Component {
     onDebounce = debounce((e) => this.clickHandler(e) , 300);
 
      clickHandler = (e) => {
-         debugger;
-        if(e.target && e.target.value !==""){
+        if(e.target.value !==""){
             this.setState({search : e.target.value.toUpperCase()})
         }
      }
