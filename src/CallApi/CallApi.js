@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Post from "./Post/Post";
+import {debounce} from 'lodash';
 
 
 class CallApi extends Component {
@@ -22,11 +23,18 @@ class CallApi extends Component {
             })
 
     }
-     clickHandler (e){
-        if(e.target.value !==""){
+    onDebounce = debounce((e) => this.clickHandler(e) , 300);
+
+     clickHandler = (e) => {
+         debugger;
+        if(e.target && e.target.value !==""){
             this.setState({search : e.target.value.toUpperCase()})
         }
+     }
 
+     onChange = (e) => {
+         e.persist();
+         this.onDebounce(e);
      }
     search2Handler (e){
         if(e.target.value !==""){
@@ -41,7 +49,9 @@ class CallApi extends Component {
 
 
 
+
 render() {
+
         return (
 
             <div>
@@ -50,7 +60,7 @@ render() {
                     <form  className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="search"
                                placeholder="Search .... "
-                               onChange={this.clickHandler.bind(this)}
+                               onChange={this.onChange}
                                onKeyPress={(e)=>{e.key === 'Enter'&& e.preventDefault()}}/>
                         {/*<input className="form-control mr-sm-2" type="search"*/}
                         {/*       placeholder="לפי תאור מוצר"*/}
