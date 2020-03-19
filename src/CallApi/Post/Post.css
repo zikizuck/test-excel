@@ -18,13 +18,9 @@
 
 }
  @keyframes example {
-    0%   {background-color: whitesmoke;
-        font-size: 22px ;}
-    25%  {background-color: yellow;}
-    50%  {background-color: whitesmoke;
-        font-size: 22px ;}
-     /*75%  {font-size: 30px ;}*/
-     100% {background-color: yellow;}
+    from  {background-color: whitesmoke;}
+    to {background-color: yellow;}
+
 }
 .card{
     margin: 10px;
