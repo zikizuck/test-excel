@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Suspense} from 'react';
 import Post from "./Post/Post";
 import {debounce} from 'lodash';
 
@@ -9,7 +9,6 @@ class CallApi extends Component {
         this.state ={
             product:[],
             search :"",
-            search2 :""
         }
 
     }
@@ -35,19 +34,15 @@ class CallApi extends Component {
          e.persist();
          this.onDebounce(e);
      }
-    search2Handler (e){
-        if(e.target.value !==""){
-            this.setState({search2 : e.target.value.toUpperCase()})
-        }
-
-    }
-    resetButton (){
-        this.setState({search:''})
-    }
-
-
-
-
+    // search2Handler (e){
+    //     if(e.target.value !==""){
+    //         this.setState({search2 : e.target.value.toUpperCase()})
+    //     }
+    //
+    // }
+    // resetButton (){
+    //     this.setState({search:''})
+    // }
 
 render() {
 
@@ -61,14 +56,9 @@ render() {
                                placeholder="Search .... "
                                onChange={this.onChange}
                                onKeyPress={(e)=>{e.key === 'Enter'&& e.preventDefault()}}/>
-                        {/*<input className="form-control mr-sm-2" type="search"*/}
-                        {/*       placeholder="לפי תאור מוצר"*/}
-                        {/*       onChange={this.search2Handler.bind(this)}*/}
-                        {/*       onKeyPress={(e)=>{e.key === 'Enter'&& e.preventDefault()}}*/}
-                        {/*/>*/}
-                        {/*<button className="btn btn-outline-success my-2 my-sm-0" onClick={this.resetButton.bind(this)}>clean content</button>*/}
 
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">איפוס</button>
+                        {/*<button onClick={this.state.product.filter(prod => ((prod.QTY || prod.stock5) >=  0))}>Inventory Only</button>*/}
                     </form>
                     <div className="card-deck">
                         {this.state.product

@@ -1,3 +1,31 @@
+
+
+
+
+.bg{
+    display: inline-block;
+    font-size: 25px;
+    position: center;
+    background-color: yellow;
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: black;
+    width: fit-content;
+    box-shadow:1px 4px 14px 2px #80808085;
+    border-radius: 10px 10px 10px 10px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+ @keyframes example {
+    0%   {background-color: whitesmoke;
+        font-size: 22px ;}
+    25%  {background-color: yellow;}
+    50%  {background-color: whitesmoke;
+        font-size: 22px ;}
+     /*75%  {font-size: 30px ;}*/
+     100% {background-color: yellow;}
+}
 .card{
     margin: 10px;
     padding: 7px;

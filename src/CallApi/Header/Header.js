@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { Router, Route, Switch } from "react-router";
+
 import CreatePost from "../../CreatePost/CreatePost";
 import 'bootstrap/dist/css/bootstrap.css';
 

@@ -1,4 +1,5 @@
 import React, {Suspense} from 'react';
+import { Router, Route, Switch } from "react-router";
 import './App.css';
 import CallApi from "./CallApi/CallApi";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,7 +16,6 @@ function App() {
 
         <Header/>
         <Suspense fallback={<h1>Loadding ...</h1>}>
-
 
             <CallApi/>
         </Suspense>
