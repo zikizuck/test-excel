@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-excel/static/css/main.99663355.chunk.css",
+    "main.css": "/test-excel/static/css/main.67bc2fbd.chunk.css",
     "main.js": "/test-excel/static/js/main.3fdf7487.chunk.js",
     "main.js.map": "/test-excel/static/js/main.3fdf7487.chunk.js.map",
     "runtime-main.js": "/test-excel/static/js/runtime-main.2daa89fe.js",
@@ -9,17 +9,17 @@
     "static/js/2.454cda25.chunk.js": "/test-excel/static/js/2.454cda25.chunk.js",
     "static/js/2.454cda25.chunk.js.map": "/test-excel/static/js/2.454cda25.chunk.js.map",
     "index.html": "/test-excel/index.html",
-    "precache-manifest.7e9c11b10d33c62c875f69834bce6ef7.js": "/test-excel/precache-manifest.7e9c11b10d33c62c875f69834bce6ef7.js",
+    "precache-manifest.fe052967bcb6f5932fbcbb406c4bbedb.js": "/test-excel/precache-manifest.fe052967bcb6f5932fbcbb406c4bbedb.js",
     "service-worker.js": "/test-excel/service-worker.js",
     "static/css/2.a1f70397.chunk.css.map": "/test-excel/static/css/2.a1f70397.chunk.css.map",
-    "static/css/main.99663355.chunk.css.map": "/test-excel/static/css/main.99663355.chunk.css.map",
+    "static/css/main.67bc2fbd.chunk.css.map": "/test-excel/static/css/main.67bc2fbd.chunk.css.map",
     "static/js/2.454cda25.chunk.js.LICENSE": "/test-excel/static/js/2.454cda25.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.2daa89fe.js",
     "static/css/2.a1f70397.chunk.css",
     "static/js/2.454cda25.chunk.js",
-    "static/css/main.99663355.chunk.css",
+    "static/css/main.67bc2fbd.chunk.css",
     "static/js/main.3fdf7487.chunk.js"
   ]
 }
