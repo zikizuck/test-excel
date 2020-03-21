@@ -48,7 +48,7 @@ class Post extends Component {
     render() {
         const cls = (this.props.QTY > 0) ? 'qty' : '';
         const cls2 = (this.props.stock5 > 0) ? 'qty2' : '';
-        const bgClass = (this.props.stock5 > 0 || this.props.QTY > 0) ? 'bg' : '';
+        const bgClass = (this.props.stock5 > 0 || this.props.QTY > 0) ? 'bg' : 'card-text';
 
 
         return (
@@ -60,10 +60,11 @@ class Post extends Component {
                                  onClick={()=> window.open(this.props.thumbnailUrl,
                                      "_blank" ,
                                      'height=600,width=400')}/>
-                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..." onClick={()=> window.open(this.props.thumbnailUrl2, "_blank" ,'height=600,width=400')}/>
+                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..."
+                                 onClick={()=> window.open(this.props.thumbnailUrl2, "_blank" ,'height=600,width=400')}/>
                         </span>
                         <div className="card-body">
-                            <h5 className={"card-title " , bgClass} >{this.props.num}</h5><br/>
+                            <h5 className={ bgClass} >{this.props.num}</h5><br/>
                             <span className="card-text">{this.props.OEM}</span><br/>
                             <span className="card-text">{this.props.make} </span>
                             <p className="card-text">{this.props.engine} </p>
