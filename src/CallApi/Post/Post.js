@@ -46,22 +46,28 @@ class Post extends Component {
 
 
     render() {
-        const cls = (this.props.QTY > 0) ? 'qty' : '';
-        const cls2 = (this.props.stock5 > 0) ? 'qty2' : '';
+        const cls = (this.props.QTY > 0) ? 'qty' : 'hide';
+        const qty = (this.props.QTY > 0) ? 'card-text' : 'hide';
+        // const img = (this.props.thumbnailUrl.length > -1) ? 'pic' : 'hide';
+        const cls2 = (this.props.stock5 > 0) ? 'qty2' : 'hide';
         const bgClass = (this.props.stock5 > 0 || this.props.QTY > 0) ? 'bg' : 'card-text';
+        const picClass = (this.props.thumbnailUrl2 !== null ) ? 'pic' : 'hide';
+        const pic1Class = (this.props.thumbnailUrl !== null ) ? 'pic' : 'hide';
 
 
         return (
                 <div >
                     <div className="card " >
-                        <div>{this.props.id}</div>
+                        <div>{this.props.index}</div>
                         <span>
-                            <img src={this.props.thumbnailUrl}  className="pic" alt="..."
+                            <img src={this.props.thumbnailUrl}  className= {pic1Class} alt="..."
                                  onClick={()=> window.open(this.props.thumbnailUrl,
                                      "_blank" ,
                                      'height=600,width=400')}/>
-                            <img src={this.props.thumbnailUrl2}  className="pic" alt="..."
-                                 onClick={()=> window.open(this.props.thumbnailUrl2, "_blank" ,'height=600,width=400')}/>
+                            <img src={this.props.thumbnailUrl2}  className= {picClass} alt="..."
+                                 onClick={()=> window.open(this.props.thumbnailUrl2,
+                                     "_blank" ,
+                                     'height=600,width=400')}/>
                         </span>
                         <div className="card-body">
                             <h5 className={ bgClass} >{this.props.num}</h5><br/>
@@ -75,12 +81,12 @@ class Post extends Component {
                             <p className="card-text" dir="rtl">{this.props.desOK}</p><hr/>
                             <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
                             <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
-                            <p className={cls2} dir="rtl">{this.props.locationOK} : מיקום </p>
-                            <p className="card-text">{this.props.R} {this.props.N}</p>
-                            <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>{this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
-                            <p className="card-text" dir="rtl">
+                            {/*<p className={cls2} dir="rtl">{this.props.locationOK} : מיקום </p>*/}
+                            {/*<p className="card-text">{this.props.R} {this.props.N}</p>*/}
+                            <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>  {this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
+                            <p className={qty} dir="rtl">
                                 <FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>
-                                {this.props.FirstFloor} כמות- {this.props.stock1} <br/> {this.props.secFloor}   כמות-{this.props.stock2}</p>
+                                     {this.props.FirstFloor} כמות- {this.props.stock1} <br/> {this.props.secFloor}   כמות-{this.props.stock2}</p>
                             {/*<a href="#" className="btn btn-primary">Go somewhere</a>*/}
                         </div>
                     </div>
