@@ -47,7 +47,7 @@ class Post extends Component {
 
     render() {
         const cls = (this.props.QTY > 0) ? 'qty' : 'hide';
-        const qty = (this.props.QTY > 0) ? 'card-text' : 'hide';
+        // const qty = (this.props.QTY > 0) ? 'card-text' : 'hide';
         // const img = (this.props.thumbnailUrl.length > -1) ? 'pic' : 'hide';
         const cls2 = (this.props.stock5 > 0) ? 'qty2' : 'hide';
         const bgClass = (this.props.stock5 > 0 || this.props.QTY > 0) ? 'bg' : 'card-text';
@@ -84,7 +84,7 @@ class Post extends Component {
                             {/*<p className={cls2} dir="rtl">{this.props.locationOK} : מיקום </p>*/}
                             {/*<p className="card-text">{this.props.R} {this.props.N}</p>*/}
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>  {this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
-                            <p className={qty} dir="rtl">
+                            <p className="card-text" dir="rtl">
                                 <FontAwesomeIcon icon={faSearchLocation} style={{color:"blue"}}/>
                                      {this.props.FirstFloor} כמות- {this.props.stock1} <br/> {this.props.secFloor}   כמות-{this.props.stock2}</p>
                             {/*<a href="#" className="btn btn-primary">Go somewhere</a>*/}
