@@ -50,6 +50,7 @@ class Post extends Component {
         // const qty = (this.props.QTY > 0) ? 'card-text' : 'hide';
         // const img = (this.props.thumbnailUrl.length > -1) ? 'pic' : 'hide';
         const cls2 = (this.props.stock5 > 0) ? 'qty2' : 'hide';
+        const cls3 = (this.props.NIR > 0) ? 'qty3' : 'hide';
         const bgClass = (this.props.stock5 > 0 || this.props.QTY > 0) ? 'bg' : 'card-text';
         const picClass = (this.props.thumbnailUrl2 !== null ) ? 'pic' : 'hide';
         const pic1Class = (this.props.thumbnailUrl !== null ) ? 'pic' : 'hide';
@@ -73,7 +74,6 @@ class Post extends Component {
                             <h5 className={ bgClass} >{this.props.num}</h5><br/>
                             <span className="card-text">{this.props.OEM}</span><br/>
                             <span className="card-text">{this.props.make} </span>
-                            <p className="card-text">{this.props.engine} </p>
                             <p className="card-text" dir="rtl">
                                 {/*<button onClick={this.clickHandler.bind(this)}>edit</button>*/}
                                {this.props.description} {this.state.description}
@@ -81,6 +81,7 @@ class Post extends Component {
                             <p className="card-text" dir="rtl">{this.props.desOK}</p><hr/>
                             <p className= {cls}  >{this.props.QTY}   :  כמות במלאי</p>
                             <p className={cls2} >{this.props.stock5}  : במלאי מחסן אור- עקיבא  </p>
+                            <p className={cls3}>{this.props.NIR}  :מלאי ניר  </p>
                             {/*<p className={cls2} dir="rtl">{this.props.locationOK} : מיקום </p>*/}
                             {/*<p className="card-text">{this.props.R} {this.props.N}</p>*/}
                             <p className="card-text"><FontAwesomeIcon icon={faShekelSign} style={{color:"blue"}}/>  {this.props.price} : מחיר ברוטו  לא כולל מעמ </p>
